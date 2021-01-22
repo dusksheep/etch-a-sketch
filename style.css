@@ -1,0 +1,48 @@
+
+body {
+  background-color: rgba(0, 0, 0, 0.932);
+}
+
+.btn {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgba(154, 237, 241, 0.185);
+  border: 3px solid rgb(114, 114, 114);
+  display:inline-block;
+  margin: 30px;
+  text-align: center;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color:cornsilk;
+  
+
+}
+.container {
+  display: grid;
+  max-width: 700px;
+  min-height: 700px;
+  border: 2px solid rgba(53, 53, 53, 0.39);
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: var(--grid64);
+  
+}
+
+#hover {
+background-color: rgba(101, 226, 43, 0.719);
+
+}
+
+.square {
+  border: 0.01mm solid rgb(0, 0, 0);
+  background-color: rgba(37, 37, 37, 0.658);  
+}
+
+.btnContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width:max-content;
+}
